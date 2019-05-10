@@ -2729,7 +2729,14 @@ function (_Component) {
           lineNumber: 22
         },
         __self: this
-      }, "Promo bulanan khusus"))))))));
+      }, "Promo bulanan khusus"))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
+        className: "diagonal",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }))));
     }
   }]);
 
@@ -2871,68 +2878,75 @@ function (_Component) {
           lineNumber: 28
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "diagonal-gray",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         className: "garuda-img2",
         src: "/static/images/section-2@2x.png",
         alt: "section 2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("section", {
         className: "introduction-semangat",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "fazz-container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 33
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "fazz-row text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "fazz-col-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
         className: "section__header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         },
         __self: this
       }, "Semangat ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         },
         __self: this
       }, "GARUDA")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "fazz-row text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 39
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "fazz-col-3 semangat-box",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 40
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -2941,28 +2955,28 @@ function (_Component) {
         alt: "Komitmen",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "semangat-title text-big",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 42
         },
         __self: this
       }, "Komitmen"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "text-small",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 43
         },
         __self: this
       }, "terhadap fokus utama menjadi Agen Garuda")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "fazz-col-3 semangat-box text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 45
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -2971,28 +2985,28 @@ function (_Component) {
         alt: "Utamakan",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "semangat-title text-big",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 47
         },
         __self: this
       }, "Utamakan"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "text-small",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 48
         },
         __self: this
       }, "pemberdayaan Potensi")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "fazz-col-3 semangat-box text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -3001,28 +3015,28 @@ function (_Component) {
         alt: "Andalkan",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 51
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "semangat-title text-big",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 52
         },
         __self: this
       }, "Andalkan"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "text-small",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 53
         },
         __self: this
       }, "kerja keras")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "fazz-col-3 semangat-box text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 55
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -3031,24 +3045,31 @@ function (_Component) {
         alt: "Tumbuh",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 56
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "semangat-title text-big",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 57
         },
         __self: this
       }, "Tumbuh"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "text-small",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 58
         },
         __self: this
-      }, "untuk mengembangkan kemampuan diri"))))));
+      }, "untuk mengembangkan kemampuan diri"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
+        className: "diagonal",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
+        },
+        __self: this
+      }))));
     }
   }]);
 

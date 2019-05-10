@@ -24,6 +24,7 @@ class Benefit extends Component{
                                 </p>
                             </div>
                         </div>
+                        <hr className="diagonal" />
                     </div>
                 </section>
             </main>

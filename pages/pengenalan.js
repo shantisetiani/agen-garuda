@@ -26,6 +26,7 @@ class Introduction extends Component{
                     </div>
                 </section>
                 <section className="introduction-section2">
+                    <div className="diagonal-gray"></div>
                     <img className="garuda-img2" src="/static/images/section-2@2x.png" alt="section 2" />
                 </section>
                 <section className="introduction-semangat">
@@ -57,6 +58,7 @@ class Introduction extends Component{
                                 <div className="text-small">untuk mengembangkan kemampuan diri</div>
                             </div>
                         </div>
+                        <hr className="diagonal" />
                     </div>
                 </section>
             </main>
