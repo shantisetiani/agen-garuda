@@ -366,11 +366,6 @@ li { line-height: 1.5 }
 .fazz-breadcrumb {}
 
 /* -- menu */
-.fazz-menu {
-  padding: 0;
-  margin: 28px 0;
-  float: right;
-}
 .fazz-menu li {
   display: inline-block;
   line-height: 1.7;
@@ -406,11 +401,11 @@ li { line-height: 1.5 }
 .fazz-form__item {
   margin: 10px 0 20px 0;
 }
+.fazz-form__item input { width: 100%; }
 .fazz-form__item input:not([type="file"]) {
   border: 1px solid #ececec;
   border-radius: 4px;
   padding: 12px 22px;
-  width: 100%;
   height: 40px;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
   font-family: Montserrat;
@@ -516,10 +511,6 @@ section {
 }
 
 /* Introduction */
-.introduction-garuda{}
-.garuda-caption{
-  top: 27vh;
-}
 .garuda-img1{
   position: relative;
   z-index: 1;
@@ -571,9 +562,6 @@ section {
   transform-origin: center center;
   left: -100px;
 } */
-.daftar-section .fazz-container{
-  margin: 0 16.666667%;
-}
 .daftar-section__title{
   max-width: 422px;
 }
@@ -596,6 +584,7 @@ section {
 }
 .fazz-footer__icon{
   background: #fff;
+  color: #33cccc;
   padding: 6.5px 4px;
   font-size: 16px;
   -moz-border-radius: 24px;
@@ -607,25 +596,98 @@ section {
 
 
 @media(max-width: 992px) {
+  h1{ font-size: 30px; }
+
+  /* General */
+  .diagonal-gray { height: 105%;}
+
+  /* header */
+  .fazz-header{ padding: 0; }
+  .fazz-nav__brand{
+    position: relative;
+    right: 20%;
+  }
+  .fazz-nav__menu{
+    display: none;
+  }
   .fazz-nav__menu.open {
-    background: #33cccc;
+    background: #fff;
     width: 100%;
     position: fixed;
     z-index: 1;
     display: block;
     left: 0;
     padding: 20px;
-    top: 55px;
+    top: 62px;
   }
-
   ul.fazz-menu.fazz-nav__menu li {
     display: block;
     margin: 10px 0;
   }
+
+  /* Introduction */
+  .introduction-garuda{ margin-top: 49px; }
+  .garuda-img2 { top: -115px; }
+  
+  .introduction-semangat{
+    margin-top: 46px;
+    margin-bottom: 106px;
+  }
+  .introduction-semangat .section__header {
+    margin-bottom: 24px;
+  }
+  .semangat-box{ margin-bottom: 22px; }
+
+  /* Keuntungan */
+  .keuntungan-row { flex-direction: column-reverse; }
+  .keuntungan-section img { margin-top: 22px; }
+
+  /* Syarat */
+  .syarat-section { margin-top: 22.7px; }
+  .syarat-section img { margin-top: 32px; }
+
+  /* Daftar */
+  .daftar-section { margin-top: 4px; }
+
+  /* FAQ */
+  .faq-section {
+    margin-top: 40px;
+    margin-bottom: 21px;
+  }
+
+  /* Footer */
+  .footer-row{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .fazz-footer__icon{
+    margin: 5.5px;
+    float: unset;
+  }
+  .icon-section{
+    margin-bottom: 24px;
+  }
 }
 
 @media (min-width: 992px){
+  /* header */
+  .fazz-nav__menu{
+    display: block;
+  }
   .fazz-nav .fazz-nav__toogle {
       display: none;
+  }
+  .fazz-menu {
+    padding: 0;
+    margin: 28px 0;
+    float: right;
+  }
+  
+  /* Introduction */
+  .garuda-caption{ margin-top: 150px; }
+
+  /* Daftar */
+  .daftar-section .fazz-container{
+    margin: 0 16.666667%;
   }
 }

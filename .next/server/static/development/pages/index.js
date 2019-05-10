@@ -146,7 +146,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "fazz-row",
+        className: "fazz-row footer-row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
@@ -167,7 +167,7 @@ function (_Component) {
         },
         __self: this
       }, "ALL RIGHTS RESERVED BY PT PAYFAZZ TEKNOLOGI NUSANTARA")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "fazz-col-6",
+        className: "fazz-col-6 icon-section",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
@@ -2637,7 +2637,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "fazz-row",
+        className: "fazz-row keuntungan-row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9

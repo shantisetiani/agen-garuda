@@ -6,7 +6,7 @@ class Benefit extends Component{
             <main id="keuntungan" className="fazz-main" role="main">
                 <section className="keuntungan-section">
                     <div className="fazz-container">
-                        <div className="fazz-row">
+                        <div className="fazz-row keuntungan-row">
                             <div className="fazz-col-6">
                                 <img className="" src="/static/images/keuntungan-bergabung@2x.png" alt="Keuntungan" />
                             </div>
